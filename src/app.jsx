@@ -13,7 +13,7 @@ import LanguageContext from './context';
 
 import frContent from './assets/translation/fr';
 import enContent from './assets/translation/en';
-import CaseStudy from './pages/works/case-study';
+import CaseStudy from './components/case-study';
 
 const contents = {
   en: enContent,
