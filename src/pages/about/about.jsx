@@ -1,18 +1,7 @@
 /* eslint-disable react/prop-types */
-import './about.scss';
 import React from 'react';
-import { injectIntl } from 'react-intl';
+import Page from '../page';
 
-const About = ({ intl }) => {
-  const title = intl.formatMessage({ id: 'about.title' });
-  const text = intl.formatMessage({ id: 'about.text' });
+const About = () => <Page page="about" />;
 
-  return (
-    <div className="about">
-      <h2>{title}</h2>
-      <p>{text}</p>
-    </div>
-  );
-};
-
-export default injectIntl(About);
+export default About;
